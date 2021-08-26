@@ -101,8 +101,11 @@ export const Part2 = () => {
   const isLabelDataValid = () => {
     let isValid = true;
 
-    if (!addLabels.length && !removeLabels.length && !newLabel.length) {
-      toastr.error('Please select at least 1 Label', 'Error');
+    if (!addLabels.length && !removeLabels.length && !newLabel.trim().length) {
+      toastr.error(
+        'Please select at least 1 Label or Enter correct Label',
+        'Error',
+      );
       return (isValid = false);
     }
 
@@ -121,7 +124,9 @@ export const Part2 = () => {
       op: 'add',
     }));
 
-    if (newLabel.length) {
+    const editedNewLabel = newLabel.trim();
+
+    if (editedNewLabel && editedNewLabel.length) {
       data = [
         ...data,
         {
