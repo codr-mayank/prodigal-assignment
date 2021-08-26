@@ -5,7 +5,3 @@ export const API_ENDPOINTS = {
   getDurationRange: '/getdurationrange',
   getFilteredCalls: '/getfilteredcalls',
 };
-
-export const PART1 = {
-  GET_LIST_OF_AGENTS: 'GET_LIST_OF_AGENTS',
-};

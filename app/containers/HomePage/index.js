@@ -98,7 +98,9 @@ export function HomePage({
     //     </Section>
     //   </div>
     // </article>
-    <div>Go to Part1 Page for Assignment Solution</div>
+    <div style={{marginTop: '10%', fontSize: '16px'}}>
+      Go to Part 1 and Part 2 Page from navbar for Assignment Solutions
+    </div>
   );
 }
 

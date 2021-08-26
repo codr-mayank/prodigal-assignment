@@ -16,4 +16,8 @@ export default defineMessages({
     id: `${scope}.part1`,
     defaultMessage: 'Part1',
   },
+  part2: {
+    id: `${scope}.part2`,
+    defaultMessage: 'Part2',
+  },
 });

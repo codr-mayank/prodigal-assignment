@@ -15,6 +15,9 @@ function Header() {
         <HeaderLink to="/part1">
           <FormattedMessage {...messages.part1} />
         </HeaderLink>
+        <HeaderLink to="/part2">
+          <FormattedMessage {...messages.part2} />
+        </HeaderLink>
       </NavBar>
     </div>
   );
