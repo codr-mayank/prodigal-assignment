@@ -6,6 +6,9 @@
 <br />
 
 <h3>For Prodigal Assignment Solutions</h3>
+Node Version for the BoilerPlate: 8.x.x
+<br />
+For Setup go to "Quick Start" section
 
 <br />
 <br />
